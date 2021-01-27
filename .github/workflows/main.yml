@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.8.9 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "mega merge hb" #Must be unique in Heroku
+          heroku_app_name: "mega-merge-hb" #Must be unique in Heroku
           heroku_email: "osapolar16@hotmail.com"
